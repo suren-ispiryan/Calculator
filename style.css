@@ -1,0 +1,147 @@
+.calculato-parent, .heading-parent{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+
+.heading{
+	font-size: 22px;
+}
+
+.calculator-form{
+	background-color: white;
+	height: 500px;
+	width: 350px;
+	border: 2px black solid;
+	border-radius: 2%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 8px 8px 4px black;
+}
+
+	/* screen part */
+	
+.mainscreen{
+	border: 2px black solid;
+	font-size: 28px;
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 15%;
+	border-radius: 5px;
+}
+
+.numScreen{
+	background-color: silver;
+	font-size: 28px;
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.prevScreen{
+	padding: 2px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,128,0, 0.2);
+	width: 100%;
+	height: 30%;
+}
+
+.screen{
+	padding: 10px;
+	width: 100%;
+	height: 70%;
+}
+
+.actionsPush{
+	background-color: rgba(0,128,0, 0.5);
+	height: 100%;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+	/* buttons part */
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	border: 2px black solid;
+	width: 100%;
+	height: 75%;
+	border-radius: 2%;
+}
+
+.btns-rows{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 90%;
+	height: 13%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#onoff{
+	background-color: red;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 18%;
+	font-size: 20px;
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+}
+
+.actions, #sqr, #sqrt, #c{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 18%;
+	font-size: 20px;
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+}
+
+.equal{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 18%;
+	font-size: 20px;
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+}
+
+.btn{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 18%;
+	font-size: 20px;
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+} 
